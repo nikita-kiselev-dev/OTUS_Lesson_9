@@ -75,7 +75,7 @@ public class MainSearch : MonoBehaviour
         int low = 0;
         int high = cellValues.Length - 1;
 
-        int iteration = 0;
+        int iteration = 1;
         
         while (cellValues[guess] != searchedValue)
         {
